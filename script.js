@@ -2,9 +2,9 @@ import {
   update as updateSnake,
   draw as drawSnake,
   snakeSpeed,
-} from "/snake.js";
+} from "./snake.js";
 
-import { update as updateFood, draw as drawFood } from "/food.js";
+import { update as updateFood, draw as drawFood } from "./food.js";
 let lastRenderTime = 0;
 const gameBoard = document.getElementById("game-board");
 console.log(gameBoard);
